@@ -1,4 +1,24 @@
 import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+SECRET_KEY = 'dev-secret'
+DEBUG = True
+ALLOWED_HOSTS = []
+
+INSTALLED_APPS = [
+    'django.contrib.contenttypes',
+    'django.contrib.staticfiles',
+    'rest_framework',
+]
+
+MIDDLEWARE = [
+    'django.middleware.common.CommonMiddleware',
+]
+
+ROOT_URLCONF = 'project.urls'
+
+STATIC_URL = '/static/'
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
