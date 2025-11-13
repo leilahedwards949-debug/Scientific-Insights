@@ -1,0 +1,13 @@
+# Core runtime
+django>=4.2,<5
+sympy>=1.12
+astropy>=5.2
+matplotlib>=3.8
+scikit-learn>=1.2
+
+# Testing and docs
+pytest>=7.0
+sphinx>=6.0
+
+# Utilities
+joblib>=1.3
