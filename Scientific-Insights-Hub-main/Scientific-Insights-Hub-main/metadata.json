@@ -1,0 +1,5 @@
+{
+  "name": "Scientific Insights Hub",
+  "description": "A web-based platform leveraging the Gemini API to perform scientific computations, visualize data, and explore machine learning concepts, inspired by powerful Python libraries.",
+  "requestFramePermissions": []
+}
